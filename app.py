@@ -18,7 +18,7 @@ def init_game():
     st.session_state.page = 'select_char'
     st.session_state.char = None
     st.session_state.current_scene = "start"
-    st.session_state.params = {"勇気": 0, "知識": 0, "好感度": 0}
+    st.session_state.params = {"勇気": 0, "知識": 0, "体力": 0}
     st.session_state.flags = {}
 
 if 'page' not in st.session_state:
