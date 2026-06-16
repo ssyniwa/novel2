@@ -8,7 +8,7 @@
         {
           "label": "モンスターの生息地について師匠に尋ねる",
           "next": "advice_from_master",
-          "effect": {"情報収集": 5}
+          "effect": {"知識": 5}
         },
         {
           "label": "すぐに出発する",
