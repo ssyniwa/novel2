@@ -25,15 +25,15 @@ if 'page' not in st.session_state:
     init_game()
 
 # --- 3. メイン画面の構築 ---
-st.title("Luna Guardian: Sasha's Story")
+st.title("Thunder Witch: Serina's Story")
 
 # キャラクター選択画面
 if st.session_state.page == 'select_char':
     st.write("キャラクターを選択してください：")
     cols = st.columns(3)
     # 現在はサーシャのみの実装を想定
-    if cols[0].button("サーシャ"):
-        st.session_state.char = "サーシャ"
+    if cols[0].button("セリナ"):
+        st.session_state.char = "セリナ"
         st.session_state.page = 'game'
         st.session_state.current_scene = "start"
         st.rerun()
