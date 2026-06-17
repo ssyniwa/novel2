@@ -25,7 +25,7 @@
       ]
     },
     "advice_from_master2": {
-      "text": "師匠は「わしが攻撃するから避けなさい」と言う。セリナは「私も強くなったからね」と言い、スキル発動する。",
+      "text": "師匠は「わしが攻撃するから避けなさい」と言う。セリナは「私も強くなったからね」と言い、ライトニング・ステップ発動する。",
       "image": "images/serina_skill2.png",
       
       "options": [
@@ -37,13 +37,37 @@
       ]
     },
     "advice_from_master3": {
-      "text": "師匠は「今度は防御だ」と言う。セリナは「完璧に防ぐわ」と言い、スキル発動する。",
+      "text": "師匠は「今度は防御だ」と言う。セリナは「完璧に防ぐわ」と言い、スパーク・シールド発動する。",
       "image": "images/serina_skill3.png",
       
       "options": [
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master4",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master4": {
+      "text": "セリナはチェイン・ライトニング発動する。",
+      "image": "images/serina_skill4.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master5",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master5": {
+      "text": "師匠が「上級魔法の準備を」と言う。セリナはボルト・オーバードライブ発動する。",
+      "image": "images/serina_skill5.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master6",
           "effect": {"知識": 1}
         }
       ]
