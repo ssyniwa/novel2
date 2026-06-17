@@ -8,7 +8,19 @@
         {
           "label": "セリナは「早速行きますよ。今回は勝ちます！」と笑顔で言う。",
           "next": "advice_from_master",
-          "effect": {"知識": 5}
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master": {
+      "text": "師匠は「まずは基本のサンダーボルトから」と言う。セリナは「そんな簡単なの確認するの？」と不満を言いつつもスキル発動する。",
+      "image": "images/serina_skill1.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master2",
+          "effect": {"知識": 1}
         }
       ]
     }
