@@ -10,6 +10,11 @@
           "next": "advice_from_master",
           "effect": {"知識": 1},
           "add_skill": "サンダーボルト"
+        },
+        {
+          "label": "冒険へスキップ",
+          "next": "start_trip",
+          "effect": {"知識": 1}
         }
       ]
     },
