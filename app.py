@@ -102,6 +102,6 @@ st.sidebar.json(st.session_state.flags)
 st.sidebar.write("### Learned Skills")
 if st.session_state.skills:
     for skill in st.session_state.skills:
-        st.sidebar.success(f"✨ {skill}")
+        st.sidebar.success(f"{skill}")
 else:
     st.sidebar.write("まだスキルはありません")
