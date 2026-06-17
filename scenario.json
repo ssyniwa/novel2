@@ -71,6 +71,66 @@
           "effect": {"知識": 1}
         }
       ]
+    },
+    "advice_from_master6": {
+      "text": "セリナはサンダー・トラップ発動する。",
+      "image": "images/serina_skill6.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master7",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master7": {
+      "text": "セリナはエレクトリック・スピア発動する。",
+      "image": "images/serina_skill7.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master8",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master8": {
+      "text": "セリナはストーム・バースト発動する。",
+      "image": "images/serina_skill8.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master9",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master9": {
+      "text": "セリナはボルト・スナイプ発動する。",
+      "image": "images/serina_skill9.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master10",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "advice_from_master10": {
+      "text": "セリナはライトニング・オーバーロード発動する。",
+      "image": "images/serina_skill10.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "start_trip",
+          "effect": {"知識": 1}
+        }
+      ]
     }
   }
 }
