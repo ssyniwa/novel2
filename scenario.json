@@ -9,6 +9,11 @@
           "label": "セリナは「早速行きますよ。今回は勝ちます！」と笑顔で言う。",
           "next": "advice_from_master",
           "effect": {"知識": 1}
+        },
+        {
+          "label": "おさらいをスキップ",
+          "next": "start_trip",
+          "effect": {"知識": 1}
         }
       ]
     },
@@ -128,6 +133,18 @@
         {
           "label": "次のスキルをおさらい",
           "next": "start_trip",
+          "effect": {"知識": 1}
+        }
+      ]
+    },
+    "start_trip": {
+      "text": "セリナは「旅に出発するわ。私がいなくて泣かないでね。」と言う。師匠は「そんな心配はいらない」と笑う。セリナは旅へ期待感を高める。",
+      "image": "images/serina_trip.png",
+      
+      "options": [
+        {
+          "label": "王都へ行く。",
+          "next": "go_town",
           "effect": {"知識": 1}
         }
       ]
