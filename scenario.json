@@ -8,14 +8,8 @@
         {
           "label": "セリナは「早速行きますよ。今回は勝ちます！」と笑顔で言う。",
           "next": "advice_from_master",
-          "effect": {"知識": 1}
-        },
-        {
-          "label": "おさらいをスキップ",
-          "next": "start_trip",
           "effect": {"知識": 1},
-          "add_skill": "サンダーボルト",
-           "add_skill": "ライトニング・ステップ"
+          "add_skill": "サンダーボルト"
         }
       ]
     },
@@ -27,7 +21,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master2",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "ライトニング・ステップ"
         }
       ]
     },
@@ -39,7 +34,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master3",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "スパーク・シールド"
         }
       ]
     },
@@ -51,7 +47,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master4",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "チェイン・ライトニング"
         }
       ]
     },
@@ -63,7 +60,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master5",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "ボルト・オーバードライブ"
         }
       ]
     },
@@ -75,7 +73,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master6",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "サンダー・トラップ"
         }
       ]
     },
@@ -87,7 +86,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master7",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "エレクトリック・スピア"
         }
       ]
     },
@@ -99,7 +99,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master8",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "ストーム・バースト"
         }
       ]
     },
@@ -111,7 +112,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master9",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "ボルト・スナイプ"
         }
       ]
     },
@@ -123,7 +125,8 @@
         {
           "label": "次のスキルをおさらい",
           "next": "advice_from_master10",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "ライトニング・オーバーロード"
         }
       ]
     },
