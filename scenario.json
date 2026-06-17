@@ -13,7 +13,9 @@
         {
           "label": "おさらいをスキップ",
           "next": "start_trip",
-          "effect": {"知識": 1}
+          "effect": {"知識": 1},
+          "add_skill": "サンダーボルト",
+           "add_skill": "ライトニング・ステップ"
         }
       ]
     },
