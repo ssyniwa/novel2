@@ -23,6 +23,18 @@
           "effect": {"知識": 1}
         }
       ]
+    },
+    "advice_from_master2": {
+      "text": "師匠は「わしが攻撃するから避けなさい」と言う。セリナは「私も強くなったからね」と言い、スキル発動する。",
+      "image": "images/serina_skill2.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master3",
+          "effect": {"知識": 1}
+        }
+      ]
     }
   }
 }
