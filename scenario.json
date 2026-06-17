@@ -35,6 +35,18 @@
           "effect": {"知識": 1}
         }
       ]
+    },
+    "advice_from_master3": {
+      "text": "師匠は「今度は防御だ」と言う。セリナは「完璧に防ぐわ」と言い、スキル発動する。",
+      "image": "images/serina_skill3.png",
+      
+      "options": [
+        {
+          "label": "次のスキルをおさらい",
+          "next": "advice_from_master4",
+          "effect": {"知識": 1}
+        }
+      ]
     }
   }
 }
