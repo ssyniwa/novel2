@@ -361,7 +361,7 @@
           "label": "クリスタルをゲット",
           "next": "get_wind",
           "effect": {"知識": 5},
-          "add_skill": "ブリザード・サンダーエッジ"
+          "add_skill": "嵐霆・空絶封界"
         }
       ]
     }
