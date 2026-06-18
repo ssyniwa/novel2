@@ -412,7 +412,7 @@
           "label": "クリスタルをゲット",
           "next": "get_dark",
           "effect": {"知識": 5},
-          "add_skill": ""
+          "add_skill": "天魔雷煌・絶界断"
         }
       ]
     },
