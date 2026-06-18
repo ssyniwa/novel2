@@ -195,11 +195,6 @@
           "label": "暴風ダンジョンへ行く。",
           "next": "go_wind",
           "effect": {"知識": 3}
-        },
-         {
-          "label": "天界ダンジョンへ行く。",
-          "next": "go_holy",
-          "effect": {"知識": 3}
         }
       ]
     },
@@ -221,11 +216,6 @@
         {
           "label": "淫魔ダンジョンへ行く。",
           "next": "go_saku",
-          "effect": {"知識": 3}
-        },
-         {
-          "label": "鉄器ダンジョンへ行く。",
-          "next": "go_metal",
           "effect": {"知識": 3}
         }
       ]
