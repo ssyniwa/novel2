@@ -322,8 +322,8 @@
       
       "options": [
         {
-          "label": "ギルドの緊急会議に参加する",
-          "next": "ending_award2",
+          "label": "雪崩が発生する",
+          "next": "help_people",
           "effect": {"体力": 5}
         }
       ]
