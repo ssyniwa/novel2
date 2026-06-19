@@ -461,7 +461,7 @@
           "label": "クリスタルをゲット",
           "next": "get_poison",
           "effect": {"知識": 5},
-          "add_skill": ""
+          "add_skill": "終焉の雷毒・ヴェノムボルテージ"
         }
       ]
     },
