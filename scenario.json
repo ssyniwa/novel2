@@ -510,7 +510,7 @@
           "label": "クリスタルをゲット",
           "next": "get_saku",
           "effect": {"知識": 5},
-          "add_skill": ""
+          "add_skill": "断罪の共鳴・ラブ・ライトニング"
         }
       ]
     },
